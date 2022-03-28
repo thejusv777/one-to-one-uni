@@ -9,7 +9,9 @@ import javax.persistence.Persistence;
 
 import com.ty.one_to_one.dto.Pan;
 import com.ty.one_to_one.dto.Person;
-
+/*
+ *person dao
+ */
 public class PersonPanDao {
 	public static void main(String[] args) {
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("dev");
